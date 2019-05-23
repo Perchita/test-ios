@@ -1,3 +1,31 @@
-PODFILE CHECKSUM: 42181a0bf575eeebac2886f2f69f3f5a335af3d0
+PODS:
+  - Alamofire (4.8.2)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - PKHUD (5.2.1)
+  - Result (4.1.0)
 
-COCOAPODS: 1.7.0
+DEPENDENCIES:
+  - Alamofire
+  - Moya
+  - PKHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Moya
+    - PKHUD
+    - Result
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  PKHUD: 4e6162c4c39ac367c6934e9855c6b4762ee16256
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+
+PODFILE CHECKSUM: 25c78e065eae0d7a880a6fcb7973edc8990a9ca7
+
+COCOAPODS: 1.7.0.beta.3

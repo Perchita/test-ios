@@ -7,6 +7,10 @@ target 'Posts' do
 
   # Pods for Posts
 
+  pod 'Alamofire'
+  pod 'Moya'
+  pod 'PKHUD'
+
   target 'PostsTests' do
     inherit! :search_paths
     # Pods for testing

@@ -15,7 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let presenter = HomePostsPresenter(postsData: PostsData.shared)
+        let initialViewController = HomePostsViewController(presenter: presenter)
+        
+        let navigationSplashViewController = UINavigationController(rootViewController: initialViewController)
+        navigationSplashViewController.isNavigationBarHidden = true
+        self.window?.rootViewController = navigationSplashViewController
+        
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
