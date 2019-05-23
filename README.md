@@ -15,6 +15,18 @@ Utilizando la API que se explica más abajo, se pide:
 ## ¿Cómo funciona la API?
 La API es un proveedor de datos de prueba:
 
-`https://jsonplaceholder.typicode.com/`
+[https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
 
-En ella hay `Users` que escriben `Posts` y cada `Posts` tiene `Comments`. Todo ello relacionado con `postId` y `userId` de forma muy intuitiva. Y tal y como explica al final de la página están todas las APIs de GET de listas y GET de elementos de cada uno de los tipos.
+En ella hay `Users` que escriben `Posts` y cada `Posts` tiene `Comments`. Todo ello relacionado con `postId` y `userId` de forma muy intuitiva. Y tal y como explica al final de la página están todas las APIs de `GET` de listas y `GET` de elementos de cada uno de los tipos.
+
+## ¿Qué es importante?
+- Que funcione ;)
+- Limpieza en el código
+- Buen uso del AutoLayout
+- Eficiencia
+
+## ¿Qué es valorable?
+- Orden en la estructura del proyecto
+- Algunos comentarios
+- Vistas bien ordenadas
+- Peek and pop
