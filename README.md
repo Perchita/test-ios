@@ -11,7 +11,9 @@ La API es un proveedor de datos de prueba:
 
 [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
 
-En ella hay usuarios (`User`) que escriben publicaciones (`Post`) y cada publicación (`Post`) tiene comentarios (`Comments`). Todo ello relacionado con `postId` y `userId` de forma muy intuitiva. Y tal y como explica al final de la página, están todas las APIs de `GET` de listas y `GET` de elementos de cada uno de los tipos.
+En ella hay usuarios (`User`) que escriben publicaciones (`Post`) y cada publicación (`Post`) tiene comentarios (`Comments`). Todo ello relacionado con `postId` y `userId` de forma muy intuitiva. 
+
+Tal y como explica al final de la página, están todas las APIs de `GET` de listas y `GET` de elementos de cada uno de los tipos.
 
 ## ¿Qué se pide?
 Utilizando la API, la aplicación debe tener los siguiente:
