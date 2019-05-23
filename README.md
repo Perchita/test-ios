@@ -2,7 +2,9 @@
 
 El objetivo de la prueba es saber si eres capaz de crear una sencilla aplicación basada en dos vistas que muestra información de un servicio.
 
-Debes hacer un `fork` del proyecto, desarrollar la prueba y mandar un `pull request`. Es un proyecto nuevo de iOS con CocoaPods, por si quieres añadir algún Pod.
+Debes hacer un `fork` del proyecto, desarrollar la prueba y mandar un `pull request`. 
+
+Es un proyecto nuevo de Xcode con [CocoaPods](https://cocoapods.org/), por si quieres añadir algún Pod.
   
 ## ¿Cómo funciona la API?
 La API es un proveedor de datos de prueba:
